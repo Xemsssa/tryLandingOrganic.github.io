@@ -32,11 +32,14 @@
 }
 
 .column {
+    list-style-type: none;
     float: left;
 /*    margin-top: 20px;*/
 /*    margin-left: 15px;*/
 /*    margin-right: 20px;*/
-    margin: 0 20px 0 30px;
+    
+/*    updated position of column 09.02.17*/
+    margin: 0 50px 0 15px;
 }
 
 .title {
@@ -44,6 +47,7 @@
 }
 
 #footer {
+    list-style-type: none;
     background-color: palevioletred;
     width: 100%;
     margin-top: 30px;
@@ -84,7 +88,7 @@ span {
     font-size: 70px;
 }
 
-/*
+/*update add no style 09.02.2017 */
 li {
-    
-}*/
+    list-style-type: none;
+}
